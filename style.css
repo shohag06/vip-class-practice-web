@@ -3,4 +3,34 @@
 .header-menue{
 
     background: url(img/gitmenue-img.JPG);
+    margin: 0px;
+    padding: 0px;
+}
+.content:after{
+    content: '';
+ 	display: block;
+ 	clear: both;
+
+}
+.my-img{
+    background: url(img/my-img.JPG);
+    height: 380px;
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;
+  
+    
+   
+}
+.details p{
+    font-size: 30px;
+    text-align:left;
+    color:black;
+}
+.peragraph {
+    float: right;
+    margin-top: -500px;
+    margin-left: 500px;
+    background-attachment: scroll;
 }
