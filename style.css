@@ -29,8 +29,10 @@
     color:black;
 }
 .peragraph {
+    background: url(img/gray.jpg);
     float: right;
     margin-top: -500px;
     margin-left: 500px;
     background-attachment: scroll;
+    padding: 20px;
 }
